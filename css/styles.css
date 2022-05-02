@@ -11,8 +11,17 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+.thumbnail:hover {
+  position:relative;
+  top:auto;
+  left:auto;
+  width:1000px;
+  height:auto;
+  display:block;
+  z-index:999;
+}
 
- .overlay-container {
+.overlay-container {
   position: relative;
   width: 100%;
 }
@@ -11394,8 +11403,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 50rem;
+    max-height: 50rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
